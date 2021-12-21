@@ -96,7 +96,7 @@
           )
           .innerText.split("/");
   
-        //  เอาแรงขุคหารค่าซ่อม
+        //  เอาแรงขุคหารค่าซ่อม สามารถปรับเป็น 0.01 ได้ คือ 10%
         if (energyCurrent / energyMax < 0.001) {
           const buttonRepair = [...document.querySelectorAll("button")].find(
             (button) =>
